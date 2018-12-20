@@ -95,6 +95,10 @@ ingress:
   #   - secretName: kubernetes-dashboard-tls
   #     hosts:
   #       - kubernetes-dashboard.domain.com
+  
+  ## Here labels can be added to the Kubernetes Dashboard ingress
+  ##
+  labels: {}
 
 rbac:
   # Specifies whether RBAC resources should be created
